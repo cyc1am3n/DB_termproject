@@ -1,4 +1,4 @@
-<doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 <title>회원 가입</title>

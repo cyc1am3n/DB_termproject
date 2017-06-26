@@ -1,7 +1,12 @@
 <?php
-$conn = mysqli_connect("localhost","root","1234");
-if (mysqli_connect_errno()){echo "MySQL 연결 오류: " . mysqli_connect_error();}
-$sql = "CREATE DATABASE test2";
-if (mysqli_query($conn,$sql)){echo "성공적으로 test2 가 만들어졌습니다.";}
-else {echo "데이터베이스 만들기 오류: " . mysqli_error($conn);}
+$db_host = "localhost";
+$db_user = "root";
+$db_passwd = "1234";
+$db_name = "database";
+$conn = mysqli_connect($db_host,$db_user,$db_passwd,$db_name);
+if (mysqli_connect_errno($conn)) {
+   echo "데이터베이스 연결 실패: " . mysqli_connect_error();
+} else {
+   echo "성공~!!!";
+}
 ?>

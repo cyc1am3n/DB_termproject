@@ -87,9 +87,11 @@
             ID : <input type="text" name="id" /><br />
             PASSWORD : <input type="password" name="pwd" /><br />
             <input type="submit" value="로그인"/>
+            <input type="button" name ="버튼" value="회원가입" onclick="location='signUp.php'";> <br/><br/>
+            </form>
+            <input type="button" name ="버튼" value="관리자 로그인 페이지" onclick="location='staff.php'";>
 
-            <input type="button" name ="버튼" value="회원가입" onclick="location='signUp.php'";>
-           </form>
+
 </div>
 
 

@@ -84,8 +84,9 @@
         <ul>
 
           <li><a href="book_info.php " >도서 목록</a></li><br>
-          <li><a href="20.html " >대출 관리</a></li><br>
-          <li><a href="30.html " >예약 관리</a></li><br>
+          <li><a href="book_borrow.php " >대출 관리</a></li><br>
+          <li><a href="book_reservation.php " >예약 관리</a></li><br>
+          <li><a href="book_review.php " >서평 게시판</a></li><br>
 
         </ul>
       </div>

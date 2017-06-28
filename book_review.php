@@ -7,7 +7,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>도서 목록</title>
+    <title>서평 게시판</title>
     <style>
      a:link {
      color: black;
@@ -80,9 +80,9 @@
          <input type="button" value="MENU"onclick="javascripｔ:history.go(-1)">
       </div>
       <div id="jb-sidebar-left">
-        <h2>도서목록</h2>
+        <h2>서평게시판</h2>
         <ul>
-
+          <input type="button" value="서평 작성하기" onclick= "location.href = 'write.php' ">
 
         </ul>
       </div>

@@ -1,6 +1,6 @@
  <?php
 include"session.php";
-setcookie($cookie_name, md5($cookie_value), time() - 3600);
+setcookie($cookie_name, md5($cookie_value), time() - 3600, "/");
 ?>
 
 <html>

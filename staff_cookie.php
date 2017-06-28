@@ -9,7 +9,7 @@ $conn = mysqli_connect($host,$user,$pw,$dbName);
 
 $cookie_name = $_POST['id'];
 $cookie_value = $_POST['pwd'];
-$sql = "SELECT * FROM member WHERE id = '$cookie_name' AND pwd = '$cookie_value'";
+$sql = "SELECT * FROM staff WHERE id = '$cookie_name' AND pwd = '$cookie_value'";
 
 $res = $conn->query($sql);
         $row = $res->fetch_array(MYSQLI_ASSOC);

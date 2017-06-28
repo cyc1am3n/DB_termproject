@@ -7,7 +7,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>도서 목록</title>
+    <title>대출 관리</title>
     <style>
      a:link {
      color: black;
@@ -80,7 +80,7 @@
          <input type="button" value="MENU"onclick="javascripｔ:history.go(-1)">
       </div>
       <div id="jb-sidebar-left">
-        <h2>도서목록</h2>
+        <h2>대출관리</h2>
         <ul>
 
 

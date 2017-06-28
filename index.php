@@ -70,7 +70,7 @@
 <body>
     <div id="jb-container">
       <div id="jb-header">
-        <h1>도서 대출 시스템</h1>
+        <h1>도서 대출 시스템: 고려도서관</h1>
       </div>
       <div id="jb-sidebar-left">
         <h2>환영합니다~!</h2>

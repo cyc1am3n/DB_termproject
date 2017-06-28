@@ -28,8 +28,11 @@
    <td><input type="text" size="40" name="addr"></td>
   </tr>
   <tr>
-   <td>성별(0: male 1: female)</td>
-   <td><input type="text" size="6" maxlength="2" name="sex"></td>
+   <td>성별</td>
+   <td>
+    <input type="radio" name="sex" value="male">남
+    <input type="radio" name="sex" value="female">여
+  </td>
   </tr>
   <tr>
    <td>생년월일(YYYYMMDD)</td>

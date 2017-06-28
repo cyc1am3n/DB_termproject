@@ -1,6 +1,5 @@
  <?php
     include"session.php";
-    include"cookie.php";
 
     ?>
 
@@ -8,7 +7,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>로그인</title>
+    <title>도서 목록</title>
     <style>
      a:link {
      color: black;
@@ -77,15 +76,12 @@
 <body>
     <div id="jb-container">
       <div id="jb-header">
-        <h1>고려도서관</h1>
+        <h1>도서 목록</h1>
       </div>
       <div id="jb-sidebar-left">
         <h2>Menu</h2>
         <ul>
 
-          <li><a href="book_info.php " >도서 목록</a></li><br>
-          <li><a href="20.html " >대출 관리</a></li><br>
-          <li><a href="30.html " >예약 관리</a></li><br>
 
         </ul>
       </div>
